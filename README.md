@@ -1,2 +1,2 @@
 # car-bike-booking-sites
-this is our car bike booking web pages
+This is our car bike booking web page project for internships.
