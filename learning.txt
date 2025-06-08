@@ -1,0 +1,6 @@
+ls : to get list of files or folders
+git clone link : to get github files
+git status : to get status of git
+git add file-name : to stage git changes of mentioned file use'.' at place of name to add whole unadded files
+git commit -m " imp messeges"
+git push origin main 
