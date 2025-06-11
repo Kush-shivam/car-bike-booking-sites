@@ -5,3 +5,14 @@
 .navbar-nav {
     text-align: right;
 }
+
+.card{
+ margin: 5%;
+}
+.carousel{
+    margin-bottom: 5%;
+}
+.footer{
+    height: 500px;
+    background-image: url(/img/bike.jpg);
+}
