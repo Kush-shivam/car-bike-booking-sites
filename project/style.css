@@ -2,7 +2,7 @@
     width: 60px;
 
 }
-.navbar-nav {
+.navbar-nav{
     text-align: right;
 }
 
@@ -15,4 +15,7 @@
 .footer{
     height: 500px;
     background-image: url(/img/bike.jpg);
+}
+.row h1{
+    text-align: center;
 }
