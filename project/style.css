@@ -14,5 +14,12 @@
 }
 .footer{
     height: 500px;
-    background-image: url(/img/bike.jpg);
+}
+.carousel-caption h5,p{
+        color : white;
+        text-align: start;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon {
+        color : white;
+         
 }
