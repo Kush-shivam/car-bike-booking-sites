@@ -2,7 +2,7 @@
     width: 60px;
 
 }
-.navbar-nav {
+.navbar-nav{
     text-align: right;
 }
 
@@ -22,4 +22,7 @@
 .carousel-control-prev-icon , .carousel-control-next-icon {
         color : white;
          
+}
+.row h1{
+    text-align: center;
 }
