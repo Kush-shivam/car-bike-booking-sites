@@ -50,3 +50,13 @@
     padding: 10px 0px;
     border-radius: 10%;
 }
+.cards .col-md-3 img{
+    width: 100%;
+    height: 200px;
+}
+.cards .left{
+    margin-left: 165px;
+}
+.cards .right{
+    margin-right: 165px;
+}
