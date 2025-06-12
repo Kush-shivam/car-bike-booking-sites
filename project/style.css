@@ -14,7 +14,7 @@
     height: 350px;
 }
 .carousel{
-    margin-bottom: 5%;
+    margin-bottom: 05%;
 }
 .footer{
     background-image: url(img/bg1.jpg);
@@ -37,7 +37,7 @@
     text-align: center;
     padding: 50px 0px;
 }
-.col-md-3 li, u{
+.col-md-3 li, .u{
     color: white;
     text-align: justify;
 }
@@ -59,4 +59,11 @@
 }
 .cards .right{
     margin-right: 165px;
+}
+h1{
+    text-align: center;
+    color: rgb(00,0,0);
+}
+.card-text{
+    color: rgb(00,0,0);
 }
