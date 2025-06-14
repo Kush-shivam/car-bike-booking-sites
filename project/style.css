@@ -1,3 +1,6 @@
+.navbar .container-fluid{
+    background-color: rgba(202, 229, 254, 0.345);
+}
 .navbar-brand{
     width: 60px;
 
