@@ -40,7 +40,7 @@
     text-align: center;
     padding: 50px 0px;
 }
-.col-md-3 li, .u{
+.footer .col-md-3 li,u{
     color: white;
     text-align: justify;
 }
@@ -70,3 +70,16 @@ h1{
 .card-text{
     color: rgb(00,0,0);
 }
+.copyright .col-md-12{
+    background-color: black;
+    height: 50px;
+}
+.copyright .col-md-12 h6{
+    color: white;
+   padding: 5px 5px;
+}
+.product .row h2,u{
+    text-align: center;
+    padding-bottom: 50px;
+}
+    

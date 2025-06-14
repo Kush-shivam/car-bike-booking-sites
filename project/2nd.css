@@ -14,7 +14,7 @@
     text-align: center;
     padding: 50px 0px;
 }
-.col-md-3 li, u{
+.footer .col-md-3 li,u,p{
     color: white;
     text-align: justify;
 }
@@ -32,3 +32,12 @@
     margin: 100px 500px;
 
 }
+.copyright .col-md-12{
+    background-color: black;
+    height: 50px;
+}
+.copyright .col-md-12 h6{
+    color: white;
+   padding: 5px 5px;
+}
+    
