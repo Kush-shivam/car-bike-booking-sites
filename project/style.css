@@ -116,3 +116,6 @@ h1 u {
   margin-left: 20%;
   margin-right: 20%;
 }
+.card .card-text{
+    text-align: justify;
+}
