@@ -33,14 +33,19 @@ u {
     text-align: justify;
 }
 
+.footer .row .col-md-3 a{
+    color: white;
+}
+
 .copyright .col-md-12 {
     background-color: black;
-    height: 50px;
+    height: 40px;
 }
 
 .copyright .col-md-12 h6 {
     color: white;
-    padding: 5px 5px;
+    margin: 10px;
+    text-align: center;
 }
 
 /* base page ends*/

@@ -23,14 +23,19 @@
     text-align: justify;
 }
 
+.footer .row .col-md-3 a{
+    color: rgb(255, 255, 255);
+}
+
 .copyright .col-md-12{
     background-color: black;
-    height: 50px;
+    height: 40px;
 }
 
 .copyright .col-md-12 h6{
     color: white;
-   padding: 5px 5px;
+   margin: 10px;
+   text-align: center;
 }
 .col-md-3 h3{
     color: white;
