@@ -68,20 +68,20 @@ p {
     text-align: justify;
 }
 
-.row .col-md-5 {
+.row .col-md-7 {
     margin: 50px 0px;
     text-align: left;
 }
 
-.row .col-md-5 i {
+.row .col-md-7 i {
     color: rgb(255, 204, 0);
 }
 
 
-.row .col-md-5 p {
+.row .col-md-7 p {
     color: black;
 }
 
-.col-md-5 span {
+.col-md-7 span {
     color: blue;
 }
