@@ -19,7 +19,7 @@
             <a class="navbar-brand col-md-1" href="index.html">
                 <img src="img/logo.jpg" alt="Bootstrap" width="100%">
             </a>
-            <h5 class="navbarbrand-name col-md-4" href="index.html">AESTHETIC VAHANAS</h5>
+            <a class="navbarbrand-name col-md-4" href="index.html"><h4>AESTHETIC VAHANAS</h4></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse col-md-7" id="navbarSupportedContent">
                 <form class="d-flex col-md-3" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-success" onclick="searchPage()" type="submit">Search</button>
                 </form>
                 <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -61,7 +61,7 @@
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
 
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
+            <div class="carousel-item active" data-bs-interval="10000" >
                 <img src="img/car.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>CARS</h5>
@@ -75,7 +75,7 @@
                     <p>The Riders Emotion.</p>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-title="apple">
                 <img src="img/ev.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Electric CAR</h5>
@@ -317,6 +317,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="search.js"></script>
 </body>
 
 </html>
