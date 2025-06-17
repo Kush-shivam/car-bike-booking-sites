@@ -43,10 +43,13 @@ u {
     color: white;
     text-align: justify;
 }
-
+.footer .text-center{
+    padding-left: 25%;
+}
 .footer .row .col-md-3 a{
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 .copyright .col-md-12 {
