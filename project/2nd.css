@@ -53,9 +53,11 @@
 .row .col-md-5 i{
      color: rgb(255, 204, 0);    
 }
+
 .row .col-md-5 p{
     color: black;
 }
+
 .col-md-5 span{
     color: blue;
 }
