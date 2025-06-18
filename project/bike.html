@@ -20,14 +20,10 @@
                 <img src="img/logo.jpg" alt="Bootstrap" width="100%">
             </a>
             <a class="navbarbrand-name col-md-4" href="index.html"><h4>AESTHETIC VAHANAS</h4></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            
             <div class="collapse navbar-collapse col-md-7" id="navbarSupportedContent">
-                <form class="d-flex col-md-4" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <form class="d-flex col-md-3" role="search" onsubmit="searchPage(event)">
+                    <input class="form-control me-2" id="searchInput" type="search" placeholder="Search Vehicle">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
                 <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
@@ -298,4 +294,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="search.js"></script>
 </html>
