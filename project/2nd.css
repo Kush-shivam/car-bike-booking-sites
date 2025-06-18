@@ -87,10 +87,19 @@ p {
 .carousel {
     padding-top: 70px;
 }
+
 .col-md-12{
     border-radius: 5px;
     border-color: rgba(0, 0, 0, 0.316);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 30px 0px;
     border-style: solid;
+}
+
+.col-md-12 h5, u , p{
+    color: black;
+
+}
+.col-md-12 .col-md-5{
+    padding: 30px 100px;
 }
