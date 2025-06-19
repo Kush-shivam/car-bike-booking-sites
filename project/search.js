@@ -1,6 +1,5 @@
 function searchPage(event) {
-    event.preventDefault(); // 🚫 Prevent the form from reloading the page
-
+    event.preventDefault();
     let input = document.getElementById("searchInput").value.toLowerCase().trim();
     
     let pages = {
