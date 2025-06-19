@@ -52,7 +52,6 @@
 
 .row .col-md-7 {
     text-align: justify;
-    padding-top: 70px;
 }
 
 .row .col-md-7 i {
@@ -69,6 +68,7 @@
 }
 .carousel {
     padding-top: 70px;
+    margin-top: -70px;
 }
 .footer {
     background-image: url(img/bg1.jpg);
@@ -111,4 +111,7 @@
  .container .col-md-12 .col-md-4 {
     padding-top: 30px;
     padding-left: 50px;
+}
+.y{
+    color: black;
 }
