@@ -20,24 +20,7 @@
     margin-right: 20%;
 }
 
-.footer {
-    background-image: url(img/bg1.jpg);
-    height: 551px;
-}
-.footer .text-center{
-    padding-left: 25%;
-}
-.footer .col-md-3 li,
-u,
-p {
-    color: white;
-    text-align: justify;
-}
 
-.footer .row .col-md-3 a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
 
 .navbar a {
     color: rgb(0, 0, 0);
@@ -46,12 +29,12 @@ p {
 
 }
 
-.copyright .col-md-12 {
+.copyright .col-md-12{
     background-color: black;
     height: 40px;
 }
 
-.copyright .col-md-12 h6 {
+.copyright .col-md-12 h6{
     color: white;
     margin: 10px;
     text-align: center;
@@ -87,19 +70,45 @@ p {
 .carousel {
     padding-top: 70px;
 }
+.footer {
+    background-image: url(img/bg1.jpg);
+    height: 551px;
+}
+.footer .text-center{
+    padding-left: 25%;
+}
+.footer .col-md-3 li,u,p{
+    color: white;
+    text-align: justify;
+}
 
-.col-md-12{
+.footer .row .col-md-3 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.container .col-md-12 {
     border-radius: 5px;
     border-color: rgba(0, 0, 0, 0.316);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 30px 0px;
     border-style: solid;
+    height: 370px;
 }
-
-.col-md-12 h5, u , p{
+.container .col-md-12 h5{
     color: black;
-
 }
-.col-md-12 .col-md-5{
-    padding: 30px 100px;
+.container .col-md-12 u {
+    color: black;
+}
+.container .col-md-12 p{
+    color: black;
+}
+.container .col-md-12 .col-md-8 {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+ 
+ .container .col-md-12 .col-md-4 {
+    padding-top: 30px;
+    padding-left: 50px;
 }
