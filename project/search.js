@@ -1,7 +1,7 @@
 function searchPage(event) {
     event.preventDefault();
     let input = document.getElementById("searchInput").value.toLowerCase().trim();
-    
+
     let pages = {
         "mahindra": "mahindra.html",
         "mahindra xuv 700": "mahindra.html#carousel1",
@@ -50,23 +50,23 @@ function searchPage(event) {
         "tvs apache": "tvs.html#carousel2",
         "rtr 310": "tvs.html#carousel2",
         "apache": "tvs.html#carousel2",
-        "revolt":"revolt.html",
-        "revolt rv400 brz":"revolt.html",
-        "rv400 brz":"revolt.html",
-        "revolt rv400":"revolt.html",
-        "brz":"revolt.html",
-        "rv400":"revolt.html",
-        "revolt rv1":"revolt.html#carousel2",
-        "rv1":"revolt.html#carousel2",
-        "ola":"ola.html",
-        "ola roadster pro":"ola.html",
-        "ola roadster":"ola.html",
-        "roadster pro":"ola.html",
-        "tork":"tork.html",
-        "tork kratos r urban":"tork.html",
-        "tork kratos":"tork.html",
-        "kratos":"tork.html",
-        "kratos r urban":"tork.html"
+        "revolt": "revolt.html",
+        "revolt rv400 brz": "revolt.html",
+        "rv400 brz": "revolt.html",
+        "revolt rv400": "revolt.html",
+        "brz": "revolt.html",
+        "rv400": "revolt.html",
+        "revolt rv1": "revolt.html#carousel2",
+        "rv1": "revolt.html#carousel2",
+        "ola": "ola.html",
+        "ola roadster pro": "ola.html",
+        "ola roadster": "ola.html",
+        "roadster pro": "ola.html",
+        "tork": "tork.html",
+        "tork kratos r urban": "tork.html",
+        "tork kratos": "tork.html",
+        "kratos": "tork.html",
+        "kratos r urban": "tork.html"
     };
 
     if (pages[input]) {
@@ -74,4 +74,10 @@ function searchPage(event) {
     } else {
         alert("We do not deal with vehicle you mentioned");
     }
+}
+
+
+function submitPage(event) {
+    event.preventDefault();
+    alert("your message has been sent. Thank you for contacting.");
 }

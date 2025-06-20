@@ -1,6 +1,0 @@
-Name    :SHIVAM KUMAR
-Sem     : 4
-College : Cambridge Institute of Technology
-Branch  : CSE
-COURSE  : web development
-PROJECT : car/bike booking website
