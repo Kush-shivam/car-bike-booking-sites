@@ -5,7 +5,7 @@
         width: 60px;
 
     }
-    
+
     .navbar-nav {
         display: flex;
         justify-content: center;
@@ -20,7 +20,7 @@
     }
 
     .navbar {
-       
+
         position: sticky;
         top: 0;
         left: 0;
@@ -31,9 +31,9 @@
 
     .footer {
         background-image: url(img/bg1.jpg);
-        background-position:center;
+        background-position: center;
         height: auto;
-        background-size:cover;
+        background-size: cover;
     }
 
     .col-md-3 h3 {
@@ -43,12 +43,13 @@
     }
 
     .footer .col-md-3 li,
-    .footer .col-md-3 u ,
-    .footer .col-md-3 p{
+    .footer .col-md-3 u,
+    .footer .col-md-3 p {
         color: white;
         text-align: justify;
     }
-    .footer .col-md-3 p{
+
+    .footer .col-md-3 p {
         padding-bottom: 5px;
     }
 
@@ -75,24 +76,25 @@
         color: black;
     }
 
-    
+
 
     .carousel {
         margin-bottom: 05%;
     }
 
-    .carousel-caption ,
+    .carousel-caption,
     p {
         width: 400px;
         color: white;
         text-align: left;
         margin-bottom: -10px;
     }
+
     h5 {
         width: 400px;
         color: white;
         text-align: left;
-        margin-bottom:-2px;
+        margin-bottom: -2px;
     }
 
     .carousel-control-prev-icon,
@@ -101,39 +103,42 @@
 
     }
 
-    
+
 
     h1 {
         text-align: center;
         color: rgb(00, 0, 0);
     }
-    
+
     .card {
         margin: 5%;
-            }
+    }
 
     .card img {
         width: 100%;
         height: 350px;
     }
+
     .cards .col-md-3 img {
         width: 100%;
         height: 200px;
     }
+
     .card-text {
         color: rgb(00, 0, 0);
     }
-    
+
     .card .card-text {
-        text-align:justify;
+        text-align: justify;
     }
-    .card .card-body{
-       height: auto;
-       padding-left: 20px;
+
+    .card .card-body {
+        height: auto;
+        padding-left: 20px;
     }
-   
-    .card .card-body p{
-       margin-bottom: 5px;
+
+    .card .card-body p {
+        margin-bottom: 5px;
     }
 
 
@@ -147,7 +152,7 @@
         color: black;
     }
 
-    
+
     /*contact us page*/
     .contact {
         background: #fff;
@@ -239,7 +244,7 @@
     }
 }
 
-@media(min-width:767px) and (max-width: 1319px) {
+@media(min-width:767px) and (max-width: 948px) {
 
     /* base page start */
     .navbar-brand {
@@ -267,12 +272,14 @@
         z-index: 1000;
         /* makes sure it stays above other elements */
     }
-    .navbar .d-flex{
-       display: flex;
-       justify-content: flex-start;
-       margin-left: auto;
+
+    .navbar .d-flex {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: auto;
     }
-    .form-control{
+
+    .form-control {
         width: 100%;
     }
 
@@ -282,7 +289,12 @@
         height: 780px;
     }
 
-    .col-md-3 h3,u { 
+    .footer .col-md-3{
+        margin-left:12.5% ;
+        margin-right:12.5% ;
+    }
+    .col-md-3 h3,
+    .col-md-3 u {
         color: white;
         text-align: center;
         margin-top: 4px;
@@ -290,12 +302,16 @@
 
     .footer .col-md-3 li {
         color: white;
-        text-align: center;
+        text-align: left;
     }
 
     .footer .row .col-md-3 a {
         color: white;
         text-decoration: none;
+        
+    }
+    .text-center{
+        padding-left: 20%;
     }
 
     .copyright .col-md-12 {
@@ -342,9 +358,483 @@
 
     }
 
+
+
+    h1 {
+        text-align: center;
+        color: rgb(00, 0, 0);
+    }
+
     .cards .col-md-3 img {
         width: 100%;
         height: 300px;
+    }
+
+    .card-text {
+        color: rgb(00, 0, 0);
+    }
+
+    .card .card-text {
+        text-align: ;
+    }
+
+
+    .product .row h2,
+    .product .row u {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    h1 u {
+        color: black;
+    }
+
+    .cards .left{
+        margin-left: 12.5%;
+    }
+    .cards .right{
+        margin-right: 12.5%;
+    }
+
+    /*contact us page*/
+    .contact {
+        background: #fff;
+        padding: 20px 20px;
+        margin: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .col-md-3 iframe {
+        width: 100%;
+        height: 400px;
+        padding: 10px 0px;
+        border-radius: 10%;
+    }
+
+    .forme {
+        margin-left: 25%;
+        margin-right: 25%;
+        background: white;
+        padding: 20px 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 350px;
+    }
+
+    .forme label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    .forme textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        resize: vertical;
+        font-size: 14px;
+    }
+
+    .forme button {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 18px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .forme button:hover {
+        background-color: #218838;
+    }
+
+    .forme .success-message {
+        color: green;
+        font-weight: bold;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .framee {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .heed {
+        text-align: center;
+    }
+
+    /*contact us page end*/
+
+    .about {
+        background: #fff;
+        padding: 40px 20px;
+        max-width: 800px;
+        margin: 40px auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .about p {
+        color: black;
+    }
+}
+@media(min-width:948px) and (max-width: 1319px) {
+
+    /* base page start */
+    .navbar-brand {
+        width: 60px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: right;
+    }
+
+    .navbar a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        /* makes sure it stays above other elements */
+    }
+
+    .navbar .d-flex {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: auto;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .footer {
+        background-image: url(img/bg1.jpg);
+        background-size: cover;
+        height: 780px;
+    }
+
+    .col-md-3 h3,
+    .col-md-3 u {
+        color: white;
+        text-align: center;
+        margin-top: 4px;
+    }
+
+    .footer .col-md-3 li {
+        color: white;
+        text-align: left;
+    }
+
+    .footer .row .col-md-3 a {
+        color: white;
+        text-decoration: none;
+        
+    }
+    .text-center{
+        padding-left: 20%;
+    }
+
+    .copyright .col-md-12 {
+        background-color: black;
+        height: 40px;
+    }
+
+    .copyright .col-md-12 h6 {
+        color: white;
+        margin: 10px;
+        text-align: center;
+    }
+
+    /* base page ends*/
+
+    .row h1 {
+        text-align: center;
+        color: black;
+    }
+
+    .card {
+        margin: 5%;
+        height: -100px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .carousel {
+        margin-bottom: 05%;
+    }
+
+    .carousel-caption h5,
+    p {
+        color: white;
+        text-align: start;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        color: white;
+
+    }
+
+
+
+    h1 {
+        text-align: center;
+        color: rgb(00, 0, 0);
+    }
+
+    .cards .col-md-3 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .card-text {
+        color: rgb(00, 0, 0);
+    }
+
+    .card .card-text {
+        text-align: ;
+    }
+
+
+    .product .row h2,
+    .product .row u {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    h1 u {
+        color: black;
+    }
+
+    .cards .left{
+        margin-left: 12.5%;
+    }
+    .cards .right{
+        margin-right: 12.5%;
+    }
+
+    /*contact us page*/
+    .contact {
+        background: #fff;
+        padding: 20px 20px;
+        margin: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .col-md-3 iframe {
+        width: 100%;
+        height: 400px;
+        padding: 10px 0px;
+        border-radius: 10%;
+    }
+
+    .forme {
+        margin-left: 25%;
+        margin-right: 25%;
+        background: white;
+        padding: 20px 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 350px;
+    }
+
+    .forme label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    .forme textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        resize: vertical;
+        font-size: 14px;
+    }
+
+    .forme button {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 18px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .forme button:hover {
+        background-color: #218838;
+    }
+
+    .forme .success-message {
+        color: green;
+        font-weight: bold;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .framee {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .heed {
+        text-align: center;
+    }
+
+    /*contact us page end*/
+
+    .about {
+        background: #fff;
+        padding: 40px 20px;
+        max-width: 800px;
+        margin: 40px auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .about p {
+        color: black;
+    }
+}
+
+@media(min-width:1319px) {
+
+    /* base page start */
+    .navbar-brand {
+        width: 60px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: right;
+    }
+
+    .navbar a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        /* makes sure it stays above other elements */
+    }
+
+    .footer {
+        background-image: url(img/bg1.jpg);
+        height: 551px;
+        background-size: cover;
+    }
+
+    .col-md-3 h3 {
+        color: white;
+        text-align: center;
+        padding: 50px 0px;
+    }
+
+    .footer .col-md-3 li,
+    u {
+        color: white;
+        text-align: justify;
+    }
+
+    .footer .text-center {
+        padding-left: 25%;
+    }
+
+    .footer .row .col-md-3 a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .copyright .col-md-12 {
+        background-color: black;
+        height: 40px;
+    }
+
+    .copyright .col-md-12 h6 {
+        color: white;
+        margin: 10px;
+        text-align: center;
+    }
+
+    /* base page ends*/
+
+    .row h1 {
+        text-align: center;
+        color: black;
+    }
+
+    .card {
+        margin: 5%;
+    }
+
+    .card img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .carousel {
+        margin-bottom: 05%;
+    }
+
+    .carousel-caption h5,
+    p {
+        color: white;
+        text-align: start;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        color: white;
+
+    }
+
+    .cards .col-md-3 img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .cards .left{
+        margin-left: 12.5%;
+    }
+    .cards .right{
+        margin-right: 12.5%;
     }
 
     h1 {
@@ -460,224 +950,4 @@
     .about p {
         color: black;
     }
-}
-@media(min-width:1200px){
-    /* base page start */
-.navbar-brand {
-    width: 60px;
-}
-
-.navbar-nav {
-    display: flex;
-    justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: right;
-}
-.navbar a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-.navbar {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000; /* makes sure it stays above other elements */
-}
-
-.footer {
-    background-image: url(img/bg1.jpg);
-    height: 551px;
-}
-
-.col-md-3 h3 {
-    color: white;
-    text-align: center;
-    padding: 50px 0px;
-}
-
-.footer .col-md-3 li,
-u {
-    color: white;
-    text-align: justify;
-}
-.footer .text-center{
-    padding-left: 25%;
-}
-.footer .row .col-md-3 a{
-    color: white;
-    text-decoration: none;
-    text-align: center;
-}
-
-.copyright .col-md-12 {
-    background-color: black;
-    height: 40px;
-}
-
-.copyright .col-md-12 h6 {
-    color: white;
-    margin: 10px;
-    text-align: center;
-}
-
-/* base page ends*/
-
-.row h1 {
-    text-align: center;
-    color: black;
-}
-
-.card {
-    margin: 5%;
-}
-
-.card img {
-    width: 100%;
-    height: 350px;
-}
-
-.carousel {
-    margin-bottom: 05%;
-}
-
-.carousel-caption h5,
-p {
-    color: white;
-    text-align: start;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    color: white;
-
-}
-
-.cards .col-md-3 img {
-    width: 100%;
-    height: 200px;
-}
-
-.cards .left {
-    margin-left: 165px;
-}
-
-.cards .right {
-    margin-right: 165px;
-}
-
-h1 {
-    text-align: center;
-    color: rgb(00, 0, 0);
-}
-
-.card-text {
-    color: rgb(00, 0, 0);
-}
-
-
-.product .row h2,
-.product .rowu {
-    text-align: center;
-    padding-top: 20px;
-}
-
-h1 u {
-    color: black;
-}
-
-.card .card-text {
-    text-align: justify;
-}
-
-/*contact us page*/
-.contact {
-    background: #fff;
-    padding: 20px 20px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.col-md-3 iframe {
-    width: 100%;
-    height: 400px;
-    padding: 10px 0px;
-    border-radius: 10%;
-}
-
-.forme {
-    margin-left: 25%;
-    margin-right: 25%;
-    background: white;
-    padding: 20px 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 350px;
-}
-
-.forme label {
-    display: block;
-    margin-bottom: 6px;
-    font-weight: bold;
-    color: #333;
-}
-
-input[type="text"],
-input[type="email"],
-.forme textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    resize: vertical;
-    font-size: 14px;
-}
-
-.forme button {
-    background-color: #28a745;
-    color: white;
-    padding: 10px 18px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.forme button:hover {
-    background-color: #218838;
-}
-
-.forme .success-message {
-    color: green;
-    font-weight: bold;
-    margin-top: 10px;
-    display: none;
-}
-
-.framee {
-    margin-left: 12%;
-    margin-right: 12%;
-}
-
-.heed {
-    text-align: center;
-}
-
-/*contact us page end*/
-
-.about {
-    background: #fff;
-    padding: 40px 20px;
-    max-width: 800px;
-    margin: 40px auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.about p {
-    color: black;
-}
 }
