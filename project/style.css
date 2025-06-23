@@ -82,15 +82,15 @@
         margin-bottom: 05%;
     }
 
-    .carousel-caption,
-    p {
+    .carousel-caption p {
         width: 400px;
         color: white;
         text-align: left;
         margin-bottom: -10px;
     }
 
-    h5 {
+
+    .carousel-caption h5 {
         width: 400px;
         color: white;
         text-align: left;
@@ -126,6 +126,7 @@
 
     .card-text {
         color: rgb(00, 0, 0);
+         box-sizing: border-box;
     }
 
     .card .card-text {
@@ -139,6 +140,9 @@
 
     .card .card-body p {
         margin-bottom: 5px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        white-space: normal;
     }
 
 
@@ -289,10 +293,11 @@
         height: 780px;
     }
 
-    .footer .col-md-3{
-        margin-left:12.5% ;
-        margin-right:12.5% ;
+    .footer .col-md-3 {
+        margin-left: 12.5%;
+        margin-right: 12.5%;
     }
+
     .col-md-3 h3,
     .col-md-3 u {
         color: white;
@@ -308,9 +313,12 @@
     .footer .row .col-md-3 a {
         color: white;
         text-decoration: none;
-        
     }
-    .text-center{
+
+    .footer .col-md-3 p{
+        color: white;
+    }
+    .text-center {
         padding-left: 20%;
     }
 
@@ -347,7 +355,7 @@
     }
 
     .carousel-caption h5,
-    p {
+    .carousel-caption p {
         color: white;
         text-align: start;
     }
@@ -375,7 +383,7 @@
     }
 
     .card .card-text {
-        text-align: ;
+        text-align: left ;
     }
 
 
@@ -389,10 +397,11 @@
         color: black;
     }
 
-    .cards .left{
+    .cards .left {
         margin-left: 12.5%;
     }
-    .cards .right{
+
+    .cards .right {
         margin-right: 12.5%;
     }
 
@@ -486,6 +495,7 @@
         color: black;
     }
 }
+
 @media(min-width:948px) and (max-width: 1319px) {
 
     /* base page start */
@@ -546,9 +556,10 @@
     .footer .row .col-md-3 a {
         color: white;
         text-decoration: none;
-        
+
     }
-    .text-center{
+
+    .text-center {
         padding-left: 20%;
     }
 
@@ -613,7 +624,7 @@
     }
 
     .card .card-text {
-        text-align: ;
+        text-align: left;
     }
 
 
@@ -627,10 +638,11 @@
         color: black;
     }
 
-    .cards .left{
+    .cards .left {
         margin-left: 12.5%;
     }
-    .cards .right{
+
+    .cards .right {
         margin-right: 12.5%;
     }
 
@@ -830,10 +842,11 @@
         height: 200px;
     }
 
-    .cards .left{
+    .cards .left {
         margin-left: 12.5%;
     }
-    .cards .right{
+
+    .cards .right {
         margin-right: 12.5%;
     }
 
